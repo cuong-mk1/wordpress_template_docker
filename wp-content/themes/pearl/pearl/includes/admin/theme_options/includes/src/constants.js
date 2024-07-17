@@ -1,1 +1,0 @@
-export const siteBreakpoints = ['default', 'tablet', 'mobile'];
